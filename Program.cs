@@ -1,279 +1,315 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.Remoting.Lifetime;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment_day3_1
+namespace Assignment_day4
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            //q1
-            /*int no1, no2, temp;
-            Console.Write("Input the First Number : ");
-            no1 = int.Parse(Console.ReadLine());
-            Console.Write("\n Input the Second Number : ");
-            no2 = int.Parse(Console.ReadLine());
-            temp = no1;
-            no1 = no2;
-            no2 = temp;
-            Console.Write("\nAfter Swapping : ");
-            Console.Write("\nFirst Number : " + no1);
-            Console.Write("\nSecond Number : " + no2);
+            //q1 
+            /*int a, b, minimum, maximum;
+            Console.Write("Enter the value of a: ");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter the value of b: ");
+            b = Convert.ToInt32(Console.ReadLine());
+            if (a > b)
+                maximum = a;
+            else
+                maximum = b;
+            if (a < b)
+                minimum = a;
+            else
+                minimum = b;
+            Console.WriteLine("Using if-else...");
+            Console.WriteLine("Minimum number = {0}", minimum);
+            Console.WriteLine("Maximum number = {0}", maximum);
+            Console.ReadLine();*/
+
 
             //q2
-
             /*int num1, num2, num3;
-
-            Console.Write("Input the first number: ");
+            Console.Write("Input the number 1:");
             num1 = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("Input the second number: ");
+            Console.Write("Input the number 2 :");
             num2 = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("Input the third number: ");
+            Console.Write("Input the number 3:");
             num3 = Convert.ToInt32(Console.ReadLine());
+                        if (num1 > num2)
+                        {
+                            if (num1 > num3)
+                            {
+                                Console.Write("The 1st Number is the greatest among three. \n\n");
+                            }
+                            else
+                            {
+                                Console.Write("The 3rd Number is the greatest among three. \n\n");
+                            }
+                        }
+                        else if (num2 > num3)
+                            Console.Write("The 2nd Number is the greatest among three \n\n");
+                        else
+                            Console.Write("The 3rd Number is the greatest among three \n\n");
+                        Console.ReadLine();*/
 
-            int result = num1 * num2 * num3;
-            Console.WriteLine("Output: {0} x {1} x {2} = {3}",
-            num1, num2, num3, result);
 
             //q3
-            /*int num1=25;
-            int num2=4;
-            int result;
-            result = num1 + num2;
-            Console.WriteLine("Value is", result);
-            result = num1 - num2;
-            Console.WriteLine("Value is", result);
-            result = num1 * num2;
-            Console.WriteLine("Value is", result);
-            result = num1 / num2;
-            Console.WriteLine("Value is ", result);
-            result = num1 % num2;
-            Console.WriteLine("Value is ", result);
-            result = num1++;
-            Console.WriteLine("Value is", result);
-            result = num1--;
-            Console.WriteLine("Value is ", result);
-            Console.ReadLine();
+            /* char ch1;
+             char ch2;
+             Console.Write("Enter a character: ");
+             ch1 = Console.ReadLine()[0];
+             Console.Write("Enter another character: ");
+             ch2 = Console.ReadLine()[0];
+             if (ch1 == ch2)
+                 Console.WriteLine("Input characters are the same");
+             else
+                 Console.WriteLine("Input characters are not the same");
+                 Console.ReadLine();*/
+
 
             //q4
-            /*double num1, num2, num3, num4;
+            /*string s1;
+            string s2;
 
-            Console.Write("Enter First number: ");
-            num1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter the first string:");
+            s1 = Console.ReadLine();
+            Console.WriteLine("Enter the second string : ");
+            s2 = Console.ReadLine();
 
-            Console.Write("Enter Second number: ");
-            num2 = Convert.ToDouble(Console.ReadLine());
+            if (s1.Equals(s2))
 
-            Console.Write("Enter Third number: ");
-            num3 = Convert.ToDouble(Console.ReadLine());
-
-            Console.Write("Enter Fourth number: ");
-            num4 = Convert.ToDouble(Console.ReadLine());
-
-            double result = (num1 + num2 + num3 + num4) / 4;
-            result = Convert.ToDouble(result);
-            Console.WriteLine("The average of {0}, {1}, {2}, {3} is: {4} ",
-            num1, num2, num3, num4, result);
-
-
-            Console.ReadLine();
+                Console.WriteLine("Both string are equal");
+            else
+                Console.WriteLine("string are not equal");
+                Console.ReadLine();*/
 
             //q5
 
-            /*int num1, num2, num3;
-
-            Console.Write("Enter first number:");
-            num1 = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("Enter second number: ");
-            num2 = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("Enter third number:");
-            num3 = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("Result {0}, {1} and {2}, (x+y)·z is {3} and x·y + y·z is {4}\n\n",
-            num1, num2, num3, ((num1 + num2) * num3), (num1 * num2 + num2 * num3));
-
-            Console.ReadLine();
+            /* int num1, num2;
+             Console.WriteLine("Enter first number:");
+             num1 = Convert.ToInt32(Console.ReadLine());
+             Console.WriteLine("Enter second number:");
+             num2 = Convert.ToInt32(Console.ReadLine());
+             if (num1 > num2)
+                 Console.WriteLine("First number is bigger than second number", num1);
+             else
+                 Console.WriteLine("Second number is bigger than first number",num2);
+             Console.ReadLine();*/
 
             //q6
-
-            /*int age;
-             Console.Write("Enter age:");
-            age = Convert.ToInt32(Console.ReadLine());
-            Console.Write("You look younger than {0} ", age);
-            Console.ReadLine();
-
-            //q7
-           /* int x;
-            Console.WriteLine("Enter number:");
-            x = Convert.ToInt32(Console.ReadLine());
-
-            for (int i = 0; i < 2; i++)
-            {
-             for (int j = 0; j < 4; j++)
-            {
-             Console.Write("{0} ", x);
-            }
-            Console.Write("\n");
-            for (int j = 0; j < 4; j++)
-            {
-              Console.Write("{0}", x);
-            }
-              Console.Write("\n");
-            }
+            /*int year;
+            Console.WriteLine("Enter Year : ");
+             year = int.Parse(Console.ReadLine());
+            if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)) Console.WriteLine("{0} is a Leap Year.", year);
+            else Console.WriteLine("{0} is not a Leap Year.", year);
             Console.ReadLine();*/
 
+            //q7
+
+            /* int a, b, c;
+             Console.WriteLine("Enter the First subject mark:");
+             a = Convert.ToInt32(Console.ReadLine());
+             Console.WriteLine("enter the second subject mark:");
+             b = Convert.ToInt32(Console.ReadLine());
+             Console.WriteLine("Enter the Third subject mark:");
+             c = Convert.ToInt32(Console.ReadLine());
+             int Totalmark = a + b + c;
+             Console.WriteLine("total_marks=" + " " + Totalmark);
+             float per = Totalmark / 3;
+             if (per < 35)
+             {
+                 Console.WriteLine("fail");
+                 Console.ReadLine();
+             }
+             else if (per > 35 && per < 45)
+             {
+                 Console.WriteLine("Third ");
+                 Console.ReadLine();
+             }
+             else if (per > 45 && per < 60)
+             {
+                 Console.WriteLine("Second ");
+                 Console.ReadLine();
+             }
+             else
+             {
+                 Console.WriteLine("First");
+             }
+             Console.ReadLine(); */
 
 
             //q8
-            /*int x;
-             Console.Write("Enter number: ");
-             x = Convert.ToInt32(Console.ReadLine());
-             Console.WriteLine("{0}{0}{0}", x);
-             Console.WriteLine("{0} {0}", x);
-             Console.WriteLine("{0} {0}", x);
-             Console.WriteLine("{0} {0}", x);
-             Console.WriteLine("{0}{0}{0}", x);
-             Console.ReadLine();*/
+            /* int rows;
+             Console.Write("Enter number of rows :");
+             rows = Convert.ToInt32(Console.ReadLine());
+             for (int i = 1; i <= rows; i++)
+             {
+               for (int j = 1; j <= i; j++)
+               {
+                Console.Write("*");
+                 }
+             Console.WriteLine("\n");
+              }
+             Console.ReadLine(); */
 
             //q9
-            /* int celsius;
-            Console.Write("Enter value of Celsius: ");
-            celsius = Convert.ToInt32(Console.ReadLine());
+            /* int i, n, sum = 0;
+             Console.Write("Display the sum of n odd natural number:\n");
+             Console.Write("\n\n");
 
-            Console.WriteLine("Kelvin = {0}", celsius + 273);
-            Console.WriteLine("Fahrenheit = {0}", celsius * 18 / 10 + 32);
-            Console.ReadLine();*/
+             Console.Write("Input number of terms : ");
+             n = Convert.ToInt32(Console.ReadLine());
+             Console.Write("\nThe odd numbers are :");
+             for (i = 1; i <= n; i++)
+             {
+                 Console.Write("{0} ", 2 * i - 1);
+                 sum += 2 * i - 1;
+             }
+             Console.Write("\nThe Sum of odd Natural Number upto {0} terms : {1} \n", n, sum);
+             Console.ReadLine(); */
 
             //q10
-            /*int x, y;
-           Console.WriteLine("Input first integer:");
-           x = Convert.ToInt32(Console.ReadLine());
-           Console.WriteLine("Input second integer:");
-           y = Convert.ToInt32(Console.ReadLine());
-           Console.WriteLine("Check if one is negative and one is positive:");
-           Console.WriteLine((x < 0 && y > 0) || (x > 0 && y < 0));
-           Console.ReadLine();*/
 
-            //q11
-            /*int x, y;
-            Console.WriteLine("Input first integer:");
-            x = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Input second integer:");
-            y = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Check if both are positive:");
-            Console.WriteLine(x > 0 && y > 0);
+            /* int num, r, sum = 0, s;
+            Console.Write("Reverse order:\n");
+            Console.Write("\n\n");
+
+
+            Console.Write("Input a number: ");
+            num = Convert.ToInt32(Console.ReadLine());
+
+            for (s = num; s != 0; s= s / 10)
+            {
+                r = s % 10;
+                sum = sum * 10 + r;
+            }
+            Console.Write("The number in reverse order is : {0} \n", sum);
             Console.ReadLine();*/
 
-            //q12
+            //q11
 
-            /* string s1 = "Hello world!!";
-             string s2 = "";
-             bool b1 = string.IsNullOrEmpty(s1);
-             Console.WriteLine(b1);
-             Console.WriteLine(s2);
-             Console.ReadLine();*/
+            /* int sum = 0;
+             for (int i = 100; i <= 200; i++)
+             {
+
+                 sum = sum + i;
+             }
+             Console.Write(sum);
+             Console.ReadLine(); */
+
+            //q12
+            /* int i, sum = 0;
+             Console.Write("Numbers between 100 and 200, divisible by 9 : \n");
+             for (i = 101; i < 200; i++)
+             {
+                 if (i % 9 == 0)
+                 {
+                     Console.Write("{0}  ", i);
+                     sum += i;
+                 }
+             }
+             Console.Write("\n\nThe sum : {0} \n", sum);
+             Console.ReadLine(); */
+
 
             //q13
-            /*  double m1 = 200;
-              Console.WriteLine("Meter:Kilometer");
-              double k1 = ConvertDistance.CMtK(m1);
-              Console.WriteLine("{0}:{1}", m1, k1);
-              double m4 = 3107;
-              double k4 = ConvertDistance.CMtK(m4);
-              Console.WriteLine("{0}:{1}", m4, k4);
-              double k3 = 5.1;
-              Console.WriteLine();
-              Console.WriteLine("Kilometer:Meter");
-              double m3 = ConvertDistance.CKtM(k3);
-              Console.WriteLine("{0}:{1}", k3, m3);
-              double k2 = 3.219;
-              double m2 = ConvertDistance.CKtM(k2);
-              Console.WriteLine("{0}:{1}", k2, m2);
-              Console.ReadLine();
 
-          }
-      }
-  }       
-
-
-      public static class ConvertDistance
-      {
-          public static double CMtK(double meters)
-          {
-              return meters / 1000;
-          }
-
-          public static double CKtM(double kilometers)
-          {
-              return kilometers * 1000;*/
+             /* int num;
+              Console.WriteLine("Enter the number:");
+              num= Convert.ToInt32(Console.ReadLine());
+              if (num== 0)
+              {
+                  Console.WriteLine("IT IS ZERO");
+              }
+              else if (num > 100)
+              {
+                  Console.WriteLine("Too large");
+              }
+              else if (num / 10 == 0)
+              {
+                  Console.WriteLine("multiple of 10");
+              }
+              else if (num%2 == 0)
+              {
+                  Console.WriteLine("it is even");
+              }
+              else
+              {
+                  Console.WriteLine("it is odd");
+              }
+              Console.ReadLine(); */
 
             //q14
-            /*double fahrenheit;
+           /* int num;
+            Console.WriteLine("Enter the number:");
+            num= Convert.ToInt32(Console.ReadLine());
+            switch (num == 0)
+            {
+                case true:
+                    Console.WriteLine("given inuput is zero");
+                    break;
+                case false:
+                    if (num % 2 == 0)
+                    {
+                        Console.WriteLine("given input is even");
+                    }
+                    else
+                    {
+                        Console.WriteLine("given input is odd");
+                    }
+                    break;
+            }
+            Console.ReadLine(); */
 
-             double celsius = 36;
-             Console.WriteLine("Celsius: " + celsius);
+            //q15
 
-             fahrenheit = (celsius * 9) / 5 + 32;
-             Console.WriteLine("Fahrenheit: " + fahrenheit);
+            /* int a, b;
+             for ( a = 0, b = 25; a <= 25 & b >= 0; a++, b--)
+             {
+                 if (a > b)
+                 {
+                     Console.WriteLine("It's crossed");
+                     break;
 
-             Console.ReadLine();
-
-             //q15
-             double usd = 0;
-             double inr = 0;
-             double value = 0;
-
-             Console.Write("Enter amount in USD: ");
-             usd = double.Parse(Console.ReadLine());
-
-             Console.Write("Enter the USD value :");
-             value = double.Parse(Console.ReadLine());
-
-             inr = usd * value;
-             Console.WriteLine("USD " + usd + "-> INR " + inr);
-             Console.ReadLine();*/
+                 }
+                 else
+                 {
+                     Console.Write(a);
+                     Console.WriteLine(b);
+                 }
+             }
+             Console.ReadLine(); */
 
             //q16
-            string first_name, last_name, userid, password;
-            Console.WriteLine("Enter the Firstname:");
-            first_name = Console.ReadLine();
-            Console.WriteLine("Enter the Lastname:");
-            last_name = Console.ReadLine();
-            if (first_name == "userid" && last_name == "password")
+            int score = 100,i;
+            string input;
+            Console.WriteLine("Enter given input hit or miss:");
+            for (i = 0; i <= 3; i++)
             {
-                Console.WriteLine("Successfully logged in!!!");
-                Console.WriteLine("Welcome to my app");
+                input = Console.ReadLine();
+                if (input == "hit")
+                {
+                    score = score + 10;
+                }
+                else if (input == "miss")
+                {
+                    score = score - 20;
+                }
             }
-            else
-            {
-                Console.WriteLine("Unsucccessful. Please check userid or password");
-            }
+            Console.WriteLine(score);
             Console.ReadLine();
+
+
+
+
+
+
+
 
         }
     }
 }
-
-
-
-
-
-
-    
-
-
-              
-
-
-
-
-
-
