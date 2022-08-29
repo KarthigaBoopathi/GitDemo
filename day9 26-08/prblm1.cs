@@ -6,43 +6,38 @@ using System.Threading.Tasks;
 
 namespace ass_26_08
 {
-    internal class prblm1
+    internal class Class1
     {
-        static void Main(string[] args)
+        public struct Students
         {
-            Student[] stu = { new Student(), new Student(), new Student() };
+            public int Id;
+            public string Name;
+            public int Fees;
 
-            stu[0].SetStudent(1, "Karthiga", 45);
-            stu[1].SetStudent(2, "Sowmiya", 47);
-            stu[2].SetStudent(3, "Shalini", 35);
-
-            stu[0].DisplayStudent();
-            stu[1].DisplayStudent();
-            stu[2].DisplayStudent();
-        }
-    }
-    public struct Student
-    {
-        public int Id;
-        public string Name;
-        public int Marks;
-
-
-       public void SetStudent(int id, string name, int marks)
-             {
-            Id = id;
-            Name = name;
-            Marks = marks;
-        }
-
-    public void DisplayStudent()
-{
-            Console.WriteLine("Student:");
-            Console.WriteLine("\tId: " + Id);
-            Console.WriteLine("\tName: " + Name);
-            Console.WriteLine("\tMarks: " + Marks);
-            Console.WriteLine("\n");
-            Console.ReadLine();
+            public void SetStudent(int id, string name, int fees)
+            {
+                Id = id;
+                Name = name;
+                Fees = fees;
+            }
+            public void gets()
+            {
+                Console.WriteLine("enter id");
+                Id = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("enter name");
+                Name = Console.ReadLine();
+                Console.WriteLine("emter fees");
+                Fees = Convert.ToInt32(Console.ReadLine());
+            }
+            public void PrintStudents()
+            {
+                Console.WriteLine("Student details:");
+                Console.WriteLine("\tID: " + Id);
+                Console.WriteLine("\tName: " + Name);
+                Console.WriteLine("\tFees: " + Fees);
+                Console.WriteLine("\n");
+                Console.ReadLine();
+            }
         }
     }
 }
