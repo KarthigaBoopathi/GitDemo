@@ -1,0 +1,11 @@
+This file contains Student's data such as Name,DOB,Percentage of Marks Obtained .
+
+Student1:
+Name: Karthiga B
+DOB: 11-12-2000
+Percentage of Marks: 98%
+
+Student2:
+Name: Sowmiya B
+DOB: 23-06-2002
+Percentage of Marks:99%
