@@ -1,0 +1,6 @@
+C:\Users\Karthiga\source\repos\ass 02-09\oops demo\bin\Debug\oops demo.dll
+C:\Users\Karthiga\source\repos\ass 02-09\oops demo\bin\Debug\oops demo.pdb
+C:\Users\Karthiga\source\repos\ass 02-09\oops demo\obj\Debug\oops demo.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\ass 02-09\oops demo\obj\Debug\oops demo.csproj.CoreCompileInputs.cache
+C:\Users\Karthiga\source\repos\ass 02-09\oops demo\obj\Debug\oops demo.dll
+C:\Users\Karthiga\source\repos\ass 02-09\oops demo\obj\Debug\oops demo.pdb
