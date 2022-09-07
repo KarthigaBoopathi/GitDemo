@@ -1,0 +1,11 @@
+C:\Users\Karthiga\source\repos\ass 06-09\ass 06-09\bin\Debug\ass 06-09.exe.config
+C:\Users\Karthiga\source\repos\ass 06-09\ass 06-09\bin\Debug\ass 06-09.exe
+C:\Users\Karthiga\source\repos\ass 06-09\ass 06-09\bin\Debug\ass 06-09.pdb
+C:\Users\Karthiga\source\repos\ass 06-09\ass 06-09\obj\Debug\ass 06-09.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\ass 06-09\ass 06-09\obj\Debug\ass 06-09.csproj.SuggestedBindingRedirects.cache
+C:\Users\Karthiga\source\repos\ass 06-09\ass 06-09\obj\Debug\ass 06-09.csproj.CoreCompileInputs.cache
+C:\Users\Karthiga\source\repos\ass 06-09\ass 06-09\obj\Debug\ass 06-09.exe
+C:\Users\Karthiga\source\repos\ass 06-09\ass 06-09\obj\Debug\ass 06-09.pdb
+C:\Users\Karthiga\source\repos\ass 06-09\ass 06-09\bin\Debug\access_specifiers.dll
+C:\Users\Karthiga\source\repos\ass 06-09\ass 06-09\bin\Debug\access_specifiers.pdb
+C:\Users\Karthiga\source\repos\ass 06-09\ass 06-09\obj\Debug\ass 06-09.csproj.CopyComplete

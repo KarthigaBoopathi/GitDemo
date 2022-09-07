@@ -1,0 +1,6 @@
+C:\Users\Karthiga\source\repos\ass 06-09\access_specifiers\bin\Debug\access_specifiers.pdb
+C:\Users\Karthiga\source\repos\ass 06-09\access_specifiers\obj\Debug\access_specifiers.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\ass 06-09\access_specifiers\obj\Debug\access_specifiers.csproj.CoreCompileInputs.cache
+C:\Users\Karthiga\source\repos\ass 06-09\access_specifiers\obj\Debug\access_specifiers.dll
+C:\Users\Karthiga\source\repos\ass 06-09\access_specifiers\obj\Debug\access_specifiers.pdb
+C:\Users\Karthiga\source\repos\ass 06-09\access_specifiers\obj\Debug\access_specifiers.csproj.CopyComplete
