@@ -1,0 +1,6 @@
+C:\Users\Karthiga\source\repos\ass 07-09\Delegatesdemo\bin\Debug\Delegatesdemo.dll
+C:\Users\Karthiga\source\repos\ass 07-09\Delegatesdemo\bin\Debug\Delegatesdemo.pdb
+C:\Users\Karthiga\source\repos\ass 07-09\Delegatesdemo\obj\Debug\Delegatesdemo.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\ass 07-09\Delegatesdemo\obj\Debug\Delegatesdemo.csproj.CoreCompileInputs.cache
+C:\Users\Karthiga\source\repos\ass 07-09\Delegatesdemo\obj\Debug\Delegatesdemo.dll
+C:\Users\Karthiga\source\repos\ass 07-09\Delegatesdemo\obj\Debug\Delegatesdemo.pdb
