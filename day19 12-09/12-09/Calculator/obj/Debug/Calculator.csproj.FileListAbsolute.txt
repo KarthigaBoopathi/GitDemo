@@ -1,0 +1,6 @@
+C:\Users\Karthiga\source\repos\12-09\Calculator\bin\Debug\Calculator.dll
+C:\Users\Karthiga\source\repos\12-09\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Karthiga\source\repos\12-09\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\12-09\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Karthiga\source\repos\12-09\Calculator\obj\Debug\Calculator.dll
+C:\Users\Karthiga\source\repos\12-09\Calculator\obj\Debug\Calculator.pdb

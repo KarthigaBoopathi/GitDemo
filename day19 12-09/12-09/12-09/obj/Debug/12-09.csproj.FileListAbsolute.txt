@@ -1,0 +1,11 @@
+C:\Users\Karthiga\source\repos\12-09\12-09\bin\Debug\12-09.exe.config
+C:\Users\Karthiga\source\repos\12-09\12-09\bin\Debug\12-09.exe
+C:\Users\Karthiga\source\repos\12-09\12-09\bin\Debug\12-09.pdb
+C:\Users\Karthiga\source\repos\12-09\12-09\obj\Debug\12-09.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\12-09\12-09\obj\Debug\12-09.csproj.SuggestedBindingRedirects.cache
+C:\Users\Karthiga\source\repos\12-09\12-09\obj\Debug\12-09.csproj.CoreCompileInputs.cache
+C:\Users\Karthiga\source\repos\12-09\12-09\obj\Debug\12-09.exe
+C:\Users\Karthiga\source\repos\12-09\12-09\obj\Debug\12-09.pdb
+C:\Users\Karthiga\source\repos\12-09\12-09\bin\Debug\Calculator.dll
+C:\Users\Karthiga\source\repos\12-09\12-09\bin\Debug\Calculator.pdb
+C:\Users\Karthiga\source\repos\12-09\12-09\obj\Debug\12-09.csproj.CopyComplete
