@@ -1,0 +1,13 @@
+C:\Users\Karthiga\source\repos\sep14\sep14\obj\Debug\sep14.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\sep14\sep14\obj\Debug\sep14.csproj.SuggestedBindingRedirects.cache
+C:\Users\Karthiga\source\repos\sep14\sep14\obj\Debug\sep14.csproj.CoreCompileInputs.cache
+C:\Users\Karthiga\source\repos\sep14\sep14\bin\Debug\sep14.exe.config
+C:\Users\Karthiga\source\repos\sep14\sep14\bin\Debug\sep14.exe
+C:\Users\Karthiga\source\repos\sep14\sep14\bin\Debug\sep14.pdb
+C:\Users\Karthiga\source\repos\sep14\sep14\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Karthiga\source\repos\sep14\sep14\bin\Debug\sep14lib.dll
+C:\Users\Karthiga\source\repos\sep14\sep14\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Karthiga\source\repos\sep14\sep14\bin\Debug\sep14lib.pdb
+C:\Users\Karthiga\source\repos\sep14\sep14\obj\Debug\sep14.csproj.CopyComplete
+C:\Users\Karthiga\source\repos\sep14\sep14\obj\Debug\sep14.exe
+C:\Users\Karthiga\source\repos\sep14\sep14\obj\Debug\sep14.pdb
