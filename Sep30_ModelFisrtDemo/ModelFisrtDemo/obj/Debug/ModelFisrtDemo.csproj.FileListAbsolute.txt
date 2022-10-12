@@ -1,0 +1,8 @@
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\ModelFisrtDemo\bin\Debug\ModelFisrtDemo.exe.config
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\ModelFisrtDemo\bin\Debug\ModelFisrtDemo.exe
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\ModelFisrtDemo\bin\Debug\ModelFisrtDemo.pdb
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\ModelFisrtDemo\obj\Debug\ModelFisrtDemo.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\ModelFisrtDemo\obj\Debug\ModelFisrtDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\ModelFisrtDemo\obj\Debug\ModelFisrtDemo.csproj.CoreCompileInputs.cache
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\ModelFisrtDemo\obj\Debug\ModelFisrtDemo.exe
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\ModelFisrtDemo\obj\Debug\ModelFisrtDemo.pdb

@@ -1,0 +1,6 @@
+C:\Users\Karthiga\source\repos\Sep27_Handson\helper\bin\Debug\helper.dll
+C:\Users\Karthiga\source\repos\Sep27_Handson\helper\bin\Debug\helper.pdb
+C:\Users\Karthiga\source\repos\Sep27_Handson\helper\obj\Debug\helper.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\Sep27_Handson\helper\obj\Debug\helper.csproj.CoreCompileInputs.cache
+C:\Users\Karthiga\source\repos\Sep27_Handson\helper\obj\Debug\helper.dll
+C:\Users\Karthiga\source\repos\Sep27_Handson\helper\obj\Debug\helper.pdb

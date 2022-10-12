@@ -1,0 +1,6 @@
+C:\Users\Karthiga\source\repos\Sep28 Handson\dal\bin\Debug\dal.dll
+C:\Users\Karthiga\source\repos\Sep28 Handson\dal\bin\Debug\dal.pdb
+C:\Users\Karthiga\source\repos\Sep28 Handson\dal\obj\Debug\dal.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\Sep28 Handson\dal\obj\Debug\dal.csproj.CoreCompileInputs.cache
+C:\Users\Karthiga\source\repos\Sep28 Handson\dal\obj\Debug\dal.dll
+C:\Users\Karthiga\source\repos\Sep28 Handson\dal\obj\Debug\dal.pdb

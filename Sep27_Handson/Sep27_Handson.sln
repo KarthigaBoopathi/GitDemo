@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sep27_Handson", "Sep27_Handson\Sep27_Handson.csproj", "{1AE32B45-9D54-4DDA-8997-5CEC1E49309B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{331CD8F2-4CCE-42C8-88D9-0DB759A3A65A} = {331CD8F2-4CCE-42C8-88D9-0DB759A3A65A}
+		{FEBEC531-0D4F-45E9-9201-9269C605EAFE} = {FEBEC531-0D4F-45E9-9201-9269C605EAFE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "businesslogic", "businesslogic\businesslogic.csproj", "{331CD8F2-4CCE-42C8-88D9-0DB759A3A65A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dataaccess", "dataaccess\dataaccess.csproj", "{AB1934A8-87EE-48FA-8683-1F80D78531BC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{331CD8F2-4CCE-42C8-88D9-0DB759A3A65A} = {331CD8F2-4CCE-42C8-88D9-0DB759A3A65A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helper", "helper\helper.csproj", "{FEBEC531-0D4F-45E9-9201-9269C605EAFE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{331CD8F2-4CCE-42C8-88D9-0DB759A3A65A} = {331CD8F2-4CCE-42C8-88D9-0DB759A3A65A}
+		{AB1934A8-87EE-48FA-8683-1F80D78531BC} = {AB1934A8-87EE-48FA-8683-1F80D78531BC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AE32B45-9D54-4DDA-8997-5CEC1E49309B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE32B45-9D54-4DDA-8997-5CEC1E49309B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE32B45-9D54-4DDA-8997-5CEC1E49309B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE32B45-9D54-4DDA-8997-5CEC1E49309B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{331CD8F2-4CCE-42C8-88D9-0DB759A3A65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331CD8F2-4CCE-42C8-88D9-0DB759A3A65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331CD8F2-4CCE-42C8-88D9-0DB759A3A65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331CD8F2-4CCE-42C8-88D9-0DB759A3A65A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1934A8-87EE-48FA-8683-1F80D78531BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1934A8-87EE-48FA-8683-1F80D78531BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1934A8-87EE-48FA-8683-1F80D78531BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1934A8-87EE-48FA-8683-1F80D78531BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEBEC531-0D4F-45E9-9201-9269C605EAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEBEC531-0D4F-45E9-9201-9269C605EAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEBEC531-0D4F-45E9-9201-9269C605EAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEBEC531-0D4F-45E9-9201-9269C605EAFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6081FA61-9D23-47BE-9CFD-6AA81D8A0C98}
+	EndGlobalSection
+EndGlobal

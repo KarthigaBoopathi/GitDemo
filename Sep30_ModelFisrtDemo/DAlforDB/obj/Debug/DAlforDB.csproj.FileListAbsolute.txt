@@ -1,0 +1,12 @@
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\DAlforDB\bin\Debug\DAlforDB.dll.config
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\DAlforDB\bin\Debug\DAlforDB.dll
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\DAlforDB\bin\Debug\DAlforDB.pdb
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\DAlforDB\bin\Debug\EntityFramework.dll
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\DAlforDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\DAlforDB\bin\Debug\EntityFramework.xml
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\DAlforDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\DAlforDB\obj\Debug\DAlforDB.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\DAlforDB\obj\Debug\DAlforDB.csproj.CoreCompileInputs.cache
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\DAlforDB\obj\Debug\DAlforDB.csproj.CopyComplete
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\DAlforDB\obj\Debug\DAlforDB.dll
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\DAlforDB\obj\Debug\DAlforDB.pdb

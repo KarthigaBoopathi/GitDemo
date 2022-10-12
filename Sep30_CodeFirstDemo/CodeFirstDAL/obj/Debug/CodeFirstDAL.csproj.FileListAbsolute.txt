@@ -1,0 +1,12 @@
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDAL\bin\Debug\CodeFirstDAL.dll.config
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDAL\bin\Debug\CodeFirstDAL.dll
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDAL\bin\Debug\CodeFirstDAL.pdb
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDAL\bin\Debug\EntityFramework.dll
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDAL\bin\Debug\EntityFramework.xml
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDAL\obj\Debug\CodeFirstDAL.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDAL\obj\Debug\CodeFirstDAL.csproj.CoreCompileInputs.cache
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDAL\obj\Debug\CodeFirstDAL.csproj.CopyComplete
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDAL\obj\Debug\CodeFirstDAL.dll
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDAL\obj\Debug\CodeFirstDAL.pdb

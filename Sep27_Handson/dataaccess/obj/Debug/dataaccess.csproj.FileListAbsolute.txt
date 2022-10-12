@@ -1,0 +1,7 @@
+C:\Users\Karthiga\source\repos\Sep27_Handson\dataaccess\bin\Debug\dataaccess.dll.config
+C:\Users\Karthiga\source\repos\Sep27_Handson\dataaccess\bin\Debug\dataaccess.dll
+C:\Users\Karthiga\source\repos\Sep27_Handson\dataaccess\bin\Debug\dataaccess.pdb
+C:\Users\Karthiga\source\repos\Sep27_Handson\dataaccess\obj\Debug\dataaccess.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\Sep27_Handson\dataaccess\obj\Debug\dataaccess.csproj.CoreCompileInputs.cache
+C:\Users\Karthiga\source\repos\Sep27_Handson\dataaccess\obj\Debug\dataaccess.dll
+C:\Users\Karthiga\source\repos\Sep27_Handson\dataaccess\obj\Debug\dataaccess.pdb

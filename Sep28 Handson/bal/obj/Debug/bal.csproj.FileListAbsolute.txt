@@ -1,0 +1,6 @@
+C:\Users\Karthiga\source\repos\Sep28 Handson\bal\bin\Debug\bal.dll
+C:\Users\Karthiga\source\repos\Sep28 Handson\bal\bin\Debug\bal.pdb
+C:\Users\Karthiga\source\repos\Sep28 Handson\bal\obj\Debug\bal.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\Sep28 Handson\bal\obj\Debug\bal.csproj.CoreCompileInputs.cache
+C:\Users\Karthiga\source\repos\Sep28 Handson\bal\obj\Debug\bal.dll
+C:\Users\Karthiga\source\repos\Sep28 Handson\bal\obj\Debug\bal.pdb

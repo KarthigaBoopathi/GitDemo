@@ -1,0 +1,12 @@
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\BAlforDB\bin\Debug\BAlforDB.dll.config
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\BAlforDB\bin\Debug\BAlforDB.dll
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\BAlforDB\bin\Debug\BAlforDB.pdb
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\BAlforDB\bin\Debug\EntityFramework.dll
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\BAlforDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\BAlforDB\bin\Debug\EntityFramework.xml
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\BAlforDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\BAlforDB\obj\Debug\BAlforDB.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\BAlforDB\obj\Debug\BAlforDB.csproj.CoreCompileInputs.cache
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\BAlforDB\obj\Debug\BAlforDB.csproj.CopyComplete
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\BAlforDB\obj\Debug\BAlforDB.dll
+C:\Users\Karthiga\source\repos\ModelFisrtDemo\BAlforDB\obj\Debug\BAlforDB.pdb

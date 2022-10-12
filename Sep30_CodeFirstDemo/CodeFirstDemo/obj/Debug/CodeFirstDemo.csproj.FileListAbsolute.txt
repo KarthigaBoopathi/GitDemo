@@ -1,0 +1,16 @@
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDemo\obj\Debug\CodeFirstDemo.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDemo\obj\Debug\CodeFirstDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDemo\obj\Debug\CodeFirstDemo.csproj.CoreCompileInputs.cache
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDemo\bin\Debug\CodeFirstDemo.exe.config
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDemo\bin\Debug\CodeFirstDemo.exe
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDemo\bin\Debug\CodeFirstDemo.pdb
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDemo\bin\Debug\CodeFirstDAL.dll
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDemo\bin\Debug\EntityFramework.dll
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDemo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDemo\bin\Debug\CodeFirstDAL.pdb
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDemo\bin\Debug\CodeFirstDAL.dll.config
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDemo\bin\Debug\EntityFramework.xml
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDemo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDemo\obj\Debug\CodeFirstDemo.csproj.CopyComplete
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDemo\obj\Debug\CodeFirstDemo.exe
+C:\Users\Karthiga\source\repos\CodeFirstDemo\CodeFirstDemo\obj\Debug\CodeFirstDemo.pdb

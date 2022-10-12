@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="AjioApp" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="AjioAppContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="AjioApp.Customer" />
+    <EntitySet Name="Products" EntityType="AjioApp.Product" />
+    <EntitySet Name="OrderDetails" EntityType="AjioApp.OrderDetail" />
+    <AssociationSet Name="CustomerOrderDetail" Association="AjioApp.CustomerOrderDetail">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="OrderDetail" EntitySet="OrderDetails" />
+    </AssociationSet>
+    <AssociationSet Name="OrderDetailProduct" Association="AjioApp.OrderDetailProduct">
+      <End Role="OrderDetail" EntitySet="OrderDetails" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+    <EntitySet Name="Suppliers" EntityType="AjioApp.Supplier" />
+    <AssociationSet Name="SupplierProduct" Association="AjioApp.SupplierProduct">
+      <End Role="Supplier" EntitySet="Suppliers" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="CustomerProduct" Association="AjioApp.CustomerProduct">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Custid" />
+    </Key>
+    <Property Name="Custid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustName" Type="String" Nullable="false" />
+    <Property Name="BirthDate" Type="String" Nullable="false" />
+    <Property Name="CustAddress" Type="AjioApp.Address" Nullable="false" />
+    <NavigationProperty Name="OrderDetails" Relationship="AjioApp.CustomerOrderDetail" FromRole="Customer" ToRole="OrderDetail" />
+    <NavigationProperty Name="Products" Relationship="AjioApp.CustomerProduct" FromRole="Customer" ToRole="Product" />
+  </EntityType>
+  <ComplexType Name="Address">
+    <Property Type="Int32" Name="Streetno" Nullable="false" />
+    <Property Type="String" Name="City" Nullable="false" />
+    <Property Type="String" Name="State" Nullable="false" />
+    <Property Type="String" Name="Country" Nullable="false" />
+    <Property Type="Int32" Name="Pincode" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Prodid" />
+    </Key>
+    <Property Name="Prodid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Prodname" Type="String" Nullable="false" />
+    <Property Name="Price" Type="String" Nullable="false" />
+    <Property Name="Fabric" Type="String" Nullable="false" />
+    <NavigationProperty Name="OrderDetails" Relationship="AjioApp.OrderDetailProduct" FromRole="Product" ToRole="OrderDetail" />
+    <NavigationProperty Name="Supplier" Relationship="AjioApp.SupplierProduct" FromRole="Product" ToRole="Supplier" />
+    <NavigationProperty Name="Customer" Relationship="AjioApp.CustomerProduct" FromRole="Product" ToRole="Customer" />
+    <Property Name="CustomerCustid" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OrderDetail">
+    <Key>
+      <PropertyRef Name="Orderid" />
+    </Key>
+    <Property Name="Orderid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Orderdate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="Customer" Relationship="AjioApp.CustomerOrderDetail" FromRole="OrderDetail" ToRole="Customer" />
+    <Property Name="CustomerCustid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Products" Relationship="AjioApp.OrderDetailProduct" FromRole="OrderDetail" ToRole="Product" />
+  </EntityType>
+  <Association Name="CustomerOrderDetail">
+    <End Type="AjioApp.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="AjioApp.OrderDetail" Role="OrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Custid" />
+      </Principal>
+      <Dependent Role="OrderDetail">
+        <PropertyRef Name="CustomerCustid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OrderDetailProduct">
+    <End Type="AjioApp.OrderDetail" Role="OrderDetail" Multiplicity="*" />
+    <End Type="AjioApp.Product" Role="Product" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="SupplierId" />
+    </Key>
+    <Property Name="SupplierId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SupplierName" Type="String" Nullable="false" />
+    <Property Name="SuppAddress" Type="AjioApp.Address" Nullable="false" />
+    <NavigationProperty Name="Product" Relationship="AjioApp.SupplierProduct" FromRole="Supplier" ToRole="Product" />
+  </EntityType>
+  <Association Name="SupplierProduct">
+    <End Type="AjioApp.Supplier" Role="Supplier" Multiplicity="1" />
+    <End Type="AjioApp.Product" Role="Product" Multiplicity="1" />
+  </Association>
+  <Association Name="CustomerProduct">
+    <End Type="AjioApp.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="AjioApp.Product" Role="Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Custid" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="CustomerCustid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

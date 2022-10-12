@@ -1,0 +1,3 @@
+C:\Users\Karthiga\source\repos\Sep28 Handson\Sep28 Handson\obj\Debug\Sep28 Handson.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\Sep28 Handson\Sep28 Handson\obj\Debug\Sep28 Handson.csproj.SuggestedBindingRedirects.cache
+C:\Users\Karthiga\source\repos\Sep28 Handson\Sep28 Handson\obj\Debug\Sep28 Handson.csproj.CoreCompileInputs.cache
