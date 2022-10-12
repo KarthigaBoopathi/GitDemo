@@ -1,0 +1,11 @@
+C:\Users\Karthiga\source\repos\Sep_23 handson\Sep_23 handson\obj\Debug\Sep_23 handson.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\Sep_23 handson\Sep_23 handson\obj\Debug\Sep_23 handson.csproj.SuggestedBindingRedirects.cache
+C:\Users\Karthiga\source\repos\Sep_23 handson\Sep_23 handson\obj\Debug\Sep_23 handson.csproj.CoreCompileInputs.cache
+C:\Users\Karthiga\source\repos\Sep_23 handson\Sep_23 handson\bin\Debug\Sep_23 handson.exe.config
+C:\Users\Karthiga\source\repos\Sep_23 handson\Sep_23 handson\bin\Debug\Sep_23 handson.exe
+C:\Users\Karthiga\source\repos\Sep_23 handson\Sep_23 handson\bin\Debug\Sep_23 handson.pdb
+C:\Users\Karthiga\source\repos\Sep_23 handson\Sep_23 handson\bin\Debug\ClassLibrary1.dll
+C:\Users\Karthiga\source\repos\Sep_23 handson\Sep_23 handson\bin\Debug\ClassLibrary1.pdb
+C:\Users\Karthiga\source\repos\Sep_23 handson\Sep_23 handson\obj\Debug\Sep_23 handson.csproj.CopyComplete
+C:\Users\Karthiga\source\repos\Sep_23 handson\Sep_23 handson\obj\Debug\Sep_23 handson.exe
+C:\Users\Karthiga\source\repos\Sep_23 handson\Sep_23 handson\obj\Debug\Sep_23 handson.pdb

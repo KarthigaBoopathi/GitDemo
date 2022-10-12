@@ -1,0 +1,9 @@
+C:\Users\Karthiga\source\repos\Sep26_Handson\Data Access\bin\Debug\Data Access.dll
+C:\Users\Karthiga\source\repos\Sep26_Handson\Data Access\bin\Debug\Data Access.pdb
+C:\Users\Karthiga\source\repos\Sep26_Handson\Data Access\obj\Debug\Data Access.csproj.AssemblyReference.cache
+C:\Users\Karthiga\source\repos\Sep26_Handson\Data Access\obj\Debug\Data Access.csproj.CoreCompileInputs.cache
+C:\Users\Karthiga\source\repos\Sep26_Handson\Data Access\obj\Debug\Data Access.dll
+C:\Users\Karthiga\source\repos\Sep26_Handson\Data Access\obj\Debug\Data Access.pdb
+C:\Users\Karthiga\source\repos\Sep26_Handson\Data Access\bin\Debug\businesslogic.dll
+C:\Users\Karthiga\source\repos\Sep26_Handson\Data Access\bin\Debug\businesslogic.pdb
+C:\Users\Karthiga\source\repos\Sep26_Handson\Data Access\obj\Debug\Data Access.csproj.CopyComplete
